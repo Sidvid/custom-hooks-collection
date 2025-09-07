@@ -1,0 +1,60 @@
+.idle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0f172a; /* dark slate */
+  color: #f8fafc; /* light text */
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem;
+}
+
+.idle-card {
+  background: #1e293b; /* darker card */
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.idle-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #38bdf8; /* sky blue */
+}
+
+.status-text {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.status-text.active {
+  color: #4ade80; /* green */
+}
+
+.status-text.idle {
+  color: #f87171; /* red */
+}
+
+.disclaimer {
+  background: #0f172a;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #38bdf8;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+
+.disclaimer-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #38bdf8;
+}
+
+.disclaimer-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #e2e8f0;
+}

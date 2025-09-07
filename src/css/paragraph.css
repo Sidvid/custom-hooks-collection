@@ -1,0 +1,29 @@
+/* Small */
+.p-sm {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.4;
+  color: #cfcfcf;
+}
+
+/* Large */
+.p-lg {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+/* Extra Large */
+.p-xl {
+  font-size: 1.375rem; /* 22px */
+  line-height: 1.6;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* Extra Extra Large */
+.p-xxl {
+  font-size: 1.75rem; /* 28px */
+  line-height: 1.6;
+  font-weight: 600;
+  color: #ffffff;
+}
